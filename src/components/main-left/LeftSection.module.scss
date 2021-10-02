@@ -1,0 +1,49 @@
+@use '../../abstracts' as *;
+
+.leftSectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: $sideBarFontSize;
+    min-height: 100vh;
+    background-color: $black;
+    color: $light;
+    letter-spacing: 1.5px;
+    border-right: 0.5px solid $gray-600;
+    position: fixed;
+    
+}
+
+.leftArticleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: $sideBarFontSize;
+    min-height: 100vh;
+}
+
+.leftSectionList {
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 0;
+    list-style: none;
+    font-family: $baloo;
+    font-size: 1.3rem;
+
+    li {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+
+.leftSectionTitle {
+    font-family: $mulish;
+    font-size: 1.75rem;
+}
+
+.leftSectionCopyStyles {
+    font-family: $baloo;
+}

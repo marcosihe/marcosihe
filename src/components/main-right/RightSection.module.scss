@@ -1,0 +1,14 @@
+@use '../../abstracts/' as *;
+
+.rightSectionContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $dark;
+    padding-left: $sideBarFontSize;
+    padding-right: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

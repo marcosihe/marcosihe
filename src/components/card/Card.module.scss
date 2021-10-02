@@ -1,0 +1,54 @@
+@use "../../abstracts" as *;
+
+.cardContainer {
+  display: flex;
+  background-color: $dark;
+  color: $light;
+}
+
+/* PROFILE PHOTO */
+.fotoDePerfil {
+  max-width: 300px;
+  max-height: 300px;
+  animation: morph 4s ease-in-out infinite 1s;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+/* CARD */
+.cardTitle {
+  font-size: 2.5rem;
+  font-family: $mulish;
+}
+
+.cardDescription {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  letter-spacing: 1px;
+  font-family: $baloo;
+}
+
+/* LIST */
+.socialMediaList {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  color: $white;
+}
