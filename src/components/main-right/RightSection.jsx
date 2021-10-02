@@ -1,13 +1,23 @@
-import React from 'react'
-import Card from '../card/Card'
-import styles from './RightSection.module.scss'
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import Home from "./home/Home";
+import styles from "./RightSection.module.scss";
 
 const RightSection = () => {
-    return (
-        <section className={styles.rightSectionContainer}>
-            <Card />
-        </section>
-    )
-}
+  return (
+    <section className={styles.rightSectionContainer}>
+      <Switch>
+        <Route exact path="/marcosihe/">
+          <Home />
+        </Route>
+        <Route exact path="/marcosihe/About"></Route>
+        <Route exact path="/marcosihe/Education"></Route>
+        <Route exact path="/marcosihe/Portfolio"></Route>
+        <Route exact path="/marcosihe/Contact"></Route>
+        <Route exact path="/marcosihe/*"></Route>
+      </Switch>
+    </section>
+  );
+};
 
-export default RightSection
+export default RightSection;
