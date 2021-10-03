@@ -9,16 +9,70 @@
   width: 100%;
 }
 
-.aboutTitle {
+.liData {
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
   color: $white;
 }
 
-.cardContainer {
+.liDataContent {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: $gray-600;
+}
+
+.dataAndButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataAndImgContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dataContainer {
+  display: flex;
+}
+
+.figure {
+  width: 250px;
+}
+
+.personalDescription {
+  color: $gray-400;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+
+.photoAndDescriptionContainer {
   display: flex;
   background-color: $dark;
   color: $light;
 }
 
-.photoAndDescriptionContainer {
-    display: flex;
+.skillsButton {
+  background-color: $gray-300;
+  border: none;
+  color: $dark;
+  padding: 1rem 4rem;
+  margin-top: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: $roboto;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $warning;
+    transform: scale(1.1);
+  }
 }

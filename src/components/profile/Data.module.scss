@@ -1,0 +1,13 @@
+@use '../../abstracts/' as *;
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ulStyles {
+    list-style: none;
+    font-family: $baloo;
+}
