@@ -1,6 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./home/Home";
+import About from './about/About'
 import styles from "./RightSection.module.scss";
 
 const RightSection = () => {
@@ -10,7 +11,7 @@ const RightSection = () => {
         <Route exact path="/marcosihe/">
           <Home />
         </Route>
-        <Route exact path="/marcosihe/About"></Route>
+        <Route exact path="/marcosihe/About"><About /></Route>
         <Route exact path="/marcosihe/Education"></Route>
         <Route exact path="/marcosihe/Portfolio"></Route>
         <Route exact path="/marcosihe/Contact"></Route>

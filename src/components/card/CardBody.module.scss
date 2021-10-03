@@ -1,0 +1,10 @@
+@use "../../abstracts/" as *;
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  letter-spacing: 1px;
+  font-family: $baloo;
+}

@@ -1,0 +1,24 @@
+@use "../../../abstracts/" as *;
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.aboutTitle {
+  color: $white;
+}
+
+.cardContainer {
+  display: flex;
+  background-color: $dark;
+  color: $light;
+}
+
+.photoAndDescriptionContainer {
+    display: flex;
+}
