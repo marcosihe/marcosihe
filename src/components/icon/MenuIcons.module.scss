@@ -1,0 +1,14 @@
+@use '../../abstracts/' as *;
+
+.iconContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: $med_bp_max){
+    .icon {
+        width: 2rem;
+    }
+}

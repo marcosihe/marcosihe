@@ -1,0 +1,33 @@
+@use "../../abstracts/" as *;
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  background-color: $white;
+  width: 100%;
+}
+
+.ulContainer {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 50vw;
+  padding-right: 1rem;
+}
+
+.liStyles {
+  list-style: none;
+}
+
+.navbarLogo {
+  color: $dark;
+  font-family: $raleway;
+  min-width: 30vw;
+  padding-left: 1rem;
+}
+
+@media screen and (min-width: $max_bp_max) {
+  .navbarContainer {
+    display: none;
+  }
+}
