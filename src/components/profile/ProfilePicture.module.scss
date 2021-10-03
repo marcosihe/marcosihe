@@ -1,8 +1,8 @@
 @use '../../abstracts/' as *;
 
 .profilePicture {
-    max-width: maxDimBigScreen;
-    max-height: maxDimBigScreen;
+    max-width: $maxDimBigScreen;
+    max-height: $maxDimBigScreen;
     animation: morph 4s ease-in-out infinite 1s;
   }
   
@@ -21,6 +21,6 @@
   @media screen and (max-width: $min_bp_min) {
     .profilePicture {
       max-width: $maxDimForPhone;
-      max-height: maxDimForPhone;
+      max-height: $maxDimForPhone;
     }
  }
