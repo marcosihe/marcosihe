@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/marcosihe/static/css/main.a8770803.chunk.css",
-    "main.js": "/marcosihe/static/js/main.dfaad39e.chunk.js",
-    "main.js.map": "/marcosihe/static/js/main.dfaad39e.chunk.js.map",
+    "main.css": "/marcosihe/static/css/main.6ec0f2cf.chunk.css",
+    "main.js": "/marcosihe/static/js/main.c70eec7e.chunk.js",
+    "main.js.map": "/marcosihe/static/js/main.c70eec7e.chunk.js.map",
     "runtime-main.js": "/marcosihe/static/js/runtime-main.0e018d19.js",
     "runtime-main.js.map": "/marcosihe/static/js/runtime-main.0e018d19.js.map",
-    "static/js/2.a0e59882.chunk.js": "/marcosihe/static/js/2.a0e59882.chunk.js",
-    "static/js/2.a0e59882.chunk.js.map": "/marcosihe/static/js/2.a0e59882.chunk.js.map",
+    "static/js/2.b70903e2.chunk.js": "/marcosihe/static/js/2.b70903e2.chunk.js",
+    "static/js/2.b70903e2.chunk.js.map": "/marcosihe/static/js/2.b70903e2.chunk.js.map",
     "index.html": "/marcosihe/index.html",
-    "static/css/main.a8770803.chunk.css.map": "/marcosihe/static/css/main.a8770803.chunk.css.map",
-    "static/js/2.a0e59882.chunk.js.LICENSE.txt": "/marcosihe/static/js/2.a0e59882.chunk.js.LICENSE.txt",
+    "static/css/main.6ec0f2cf.chunk.css.map": "/marcosihe/static/css/main.6ec0f2cf.chunk.css.map",
+    "static/js/2.b70903e2.chunk.js.LICENSE.txt": "/marcosihe/static/js/2.b70903e2.chunk.js.LICENSE.txt",
     "static/media/marcosFoto2.729bcb3d.jpg": "/marcosihe/static/media/marcosFoto2.729bcb3d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0e018d19.js",
-    "static/js/2.a0e59882.chunk.js",
-    "static/css/main.a8770803.chunk.css",
-    "static/js/main.dfaad39e.chunk.js"
+    "static/js/2.b70903e2.chunk.js",
+    "static/css/main.6ec0f2cf.chunk.css",
+    "static/js/main.c70eec7e.chunk.js"
   ]
 }
