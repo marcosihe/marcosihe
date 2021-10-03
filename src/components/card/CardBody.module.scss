@@ -8,3 +8,9 @@
   letter-spacing: 1px;
   font-family: $baloo;
 }
+
+@media screen and (max-width: $med_bp_min) {
+ .cardContainer {
+   align-items: center;
+ }
+}

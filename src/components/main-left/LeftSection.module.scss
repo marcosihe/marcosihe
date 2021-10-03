@@ -42,3 +42,9 @@
 .leftSectionCopyStyles {
     font-family: $baloo;
 }
+
+@media screen and (max-width: $max_bp_min) {
+    .leftSectionContainer {
+        display: none;
+    }
+}

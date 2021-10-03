@@ -12,7 +12,7 @@ const Home = () => {
   const title = "MARCOS HERRERA";
   
   return (
-    <section className={styles.cardContainer}>
+    <section className={styles.homeContainer}>
       <ProfilePicture img={img} />
       <CardBody>
         <CardTitle title={title} />

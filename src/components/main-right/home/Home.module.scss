@@ -1,6 +1,6 @@
 @use "../../../abstracts" as *;
 
-.cardContainer {
+.homeContainer {
   display: flex;
   background-color: $dark;
   color: $light;
@@ -18,4 +18,10 @@
   padding-left: 0;
   list-style: none;
   color: $white;
+}
+
+@media screen and (max-width: $med_bp_min) {
+  .homeContainer {
+    flex-direction: column;
+  }
 }

@@ -1,6 +1,8 @@
-.fotoDePerfil {
-    max-width: 300px;
-    max-height: 300px;
+@use '../../abstracts/' as *;
+
+.profilePicture {
+    max-width: maxDimBigScreen;
+    max-height: maxDimBigScreen;
     animation: morph 4s ease-in-out infinite 1s;
   }
   
@@ -15,3 +17,10 @@
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
   }
+
+  @media screen and (max-width: $min_bp_min) {
+    .profilePicture {
+      max-width: $maxDimForPhone;
+      max-height: maxDimForPhone;
+    }
+ }

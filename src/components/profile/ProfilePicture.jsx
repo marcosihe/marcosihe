@@ -8,7 +8,7 @@ const ProfilePicture = (props) => {
       <img
         src={img}
         alt="Foto de perfil de Marcos Herrera"
-        className={styles.fotoDePerfil}
+        className={styles.profilePicture}
       />
     </figure>
   );
