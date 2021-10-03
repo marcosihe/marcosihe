@@ -1,21 +1,21 @@
-@use '../../abstracts/' as *;
+@use "../../abstracts/" as *;
 
 .rightSectionContainer {
-    width: 100%;
-    min-height: 100vh;
-    background-color: $dark;
-    padding-left: $sideBarSize;
-    padding-right: 2rem;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $dark;
+  padding-left: $sideBarSize;
+  padding-right: 2rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: $max_bp_min) {
-   .rightSectionContainer {
-       padding-left: 2rem;
-       margin-top: 12.5vh;
-   }
+  .rightSectionContainer {
+    padding-left: 2rem;
+    margin-top: $navbarHeight;
+  }
 }

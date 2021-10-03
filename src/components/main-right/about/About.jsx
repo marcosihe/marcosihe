@@ -17,7 +17,7 @@ const About = () => {
     "Tucumán - Argentina",
     "+54 9 381 6703322",
     "marcosherrera.ib@gmail.com",
-    "Universidad Nacional de Tucumán",
+    "U.N.T.",
   ];
 
   return (
@@ -25,9 +25,7 @@ const About = () => {
       <section className={styles.photoAndDescriptionContainer}>
         {" "}
         {/** Foto de perfil y presentación */}
-        <article>
-          <ProfilePicture img={img} />
-        </article>
+        <ProfilePicture img={img} />
         <CardBody>
           <CardTitle title={title} />
           <p className={styles.personalDescription}>{resumeText}</p>

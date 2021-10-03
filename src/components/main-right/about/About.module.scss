@@ -4,9 +4,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 .liData {
@@ -20,6 +21,9 @@
   font-size: 1.2rem;
   letter-spacing: 1px;
   color: $gray-600;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .dataAndButtonContainer {
@@ -48,6 +52,8 @@
   font-style: italic;
   letter-spacing: 1px;
   font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .photoAndDescriptionContainer {
@@ -74,5 +80,18 @@
   &:hover {
     background-color: $warning;
     transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: $max_bp_min) {
+  .dataAndImgContainer {
+    //flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .photoAndDescriptionContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

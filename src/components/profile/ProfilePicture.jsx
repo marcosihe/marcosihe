@@ -4,7 +4,7 @@ import styles from "./ProfilePicture.module.scss";
 const ProfilePicture = (props) => {
   const { img } = props;
   return (
-    <figure>
+    <figure className={styles.figure}>
       <img
         src={img}
         alt="Foto de perfil de Marcos Herrera"

@@ -1,26 +1,33 @@
-@use '../../abstracts/' as *;
+@use "../../abstracts/" as *;
 
+.figure {
+  max-width: $maxDimBigScreen;
+}
 .profilePicture {
-    max-width: maxDimBigScreen;
-    max-height: maxDimBigScreen;
-    animation: morph 4s ease-in-out infinite 1s;
-  }
-  
-  @keyframes morph {
-    0% {
-      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-    50% {
-      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    }
-    100% {
-      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-  }
+  max-width: $maxDimBigScreen;
+  max-height: $maxDimBigScreen;
+  animation: morph 4s ease-in-out infinite 1s;
+}
 
-  @media screen and (max-width: $min_bp_min) {
-    .profilePicture {
-      max-width: $maxDimForPhone;
-      max-height: maxDimForPhone;
-    }
- }
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@media screen and (max-width: $min_bp_min) {
+  .profilePicture {
+    max-width: $maxDimForPhone;
+    max-height: $maxDimForPhone;
+  }
+  .figure {
+    max-width: $maxDimForPhone;
+    padding: 0;
+  }
+}

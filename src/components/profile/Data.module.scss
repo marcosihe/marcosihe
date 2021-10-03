@@ -1,13 +1,19 @@
-@use '../../abstracts/' as *;
+@use "../../abstracts/" as *;
 
 .listContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .ulStyles {
-    list-style: none;
-    font-family: $baloo;
+  list-style: none;
+  font-family: $baloo;
+}
+
+@media screen and (max-width: $max_bp_min) {
+  .ulStyles {
+    padding-left: 0.1rem;
+  }
 }
