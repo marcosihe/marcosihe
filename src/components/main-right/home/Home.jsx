@@ -1,19 +1,9 @@
 import React from "react";
 import styles from "./Home.module.scss";
 import img from "../../../img/marcosFoto2.jpg";
-import List from "../../lists/List";
-
-import SocialMediaIcon from "../../icon/SocialMediaIcon";
+import { IconList } from "../../lists/IconList";
 
 const Home = () => {
-  const socialMedia = [
-    "linkedin",
-    "github",
-    "instagram",
-    "twitter",
-    "whatsapp",
-  ].map((item, index) => <SocialMediaIcon key={index} name={item} />);
-
   return (
     <section className={styles.cardContainer}>
       <figure>
@@ -29,7 +19,7 @@ const Home = () => {
           Creative Developer with a set of skills in Front-End technologies,
           mainly Javascript and React JS.
         </p>
-        <List list={socialMedia} ulStyles={styles.socialMediaList} />
+        <IconList ulStyles={styles.socialMediaList} />
       </article>
     </section>
   );
