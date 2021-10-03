@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: $sideBarFontSize;
+    width: $sideBarSize;
     min-height: 100vh;
     background-color: $black;
     color: $light;
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: $sideBarFontSize;
+    max-width: $sideBarSize;
     min-height: 100vh;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .leftSectionTitle {
-    font-family: $mulish;
+    font-family: $raleway;
     font-size: 1.75rem;
 }
 
