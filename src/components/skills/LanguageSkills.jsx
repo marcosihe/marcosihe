@@ -4,7 +4,7 @@ import styles from "./LanguageSkills.module.scss";
 
 const LanguageSkills = () => {
   return (
-    <section class={styles.skillsContainer}>
+    <section className={styles.skillsContainer}>
       <h2>English Skills</h2>
       <ProgressBar title="Grammar" prog={70} />
       <ProgressBar title="Vocabulary" prog={70} />

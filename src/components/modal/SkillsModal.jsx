@@ -1,9 +1,8 @@
 import React from "react";
 import Box from "@mui/material/Box";
-//import Typography from "@mui/material/Typography";
+import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import ProgrammingSkills from "../skills/ProgrammingSkills";
-import styles from "./SkillsModal.module.scss";
 import LanguageSkills from "../skills/LanguageSkills";
 import OtherTechnologies from "../skills/OtherTechnologies";
 
@@ -13,12 +12,13 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   maxWidth: 800,
-  minHeight: 400,
-  overflow:'scroll',
+  maxHeight: "80vh",
+  overflow: "scroll",
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
   p: 4,
+  fontFamily: "roboto",
 };
 
 const SkillsModal = ({ open, handleClose }) => {
@@ -30,14 +30,14 @@ const SkillsModal = ({ open, handleClose }) => {
       aria-describedby="programming-languages-skills"
     >
       <Box sx={style}>
-        <section className={styles.skillsContainer}>
+        <Box sx={{display: 'flex'}}>
           <ProgrammingSkills />
           <LanguageSkills />
-        </section>
-        <section>
-          <h2>Other Technologies</h2>
+        </Box>
+        <Box sx={{display: 'flex', flexWrap: 'wrap'}}>
+          <Typography sx={{mt: 2, ml: 2}}>Other technologies</Typography>
           <OtherTechnologies />
-        </section>
+        </Box>
       </Box>
     </Modal>
   );
