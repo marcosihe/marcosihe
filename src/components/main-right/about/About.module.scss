@@ -63,29 +63,19 @@
 }
 
 .skillsButton {
-  background-color: $gray-300;
-  border: none;
-  color: $dark;
-  padding: 1rem 4rem;
-  margin-top: 0.75rem;
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  height: 3rem;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.4rem;
-  font-weight: bold;
-  font-family: $roboto;
-  cursor: pointer;
-  border-radius: 5px;
 
   &:hover {
-    background-color: $warning;
+    background: linear-gradient(45deg, $warning 30%, #ff8e53 90%);
     transform: scale(1.1);
+    color: $dark;
   }
 }
 
 @media screen and (max-width: $max_bp_min) {
   .dataAndImgContainer {
-    //flex-direction: column;
     flex-wrap: wrap;
   }
 
