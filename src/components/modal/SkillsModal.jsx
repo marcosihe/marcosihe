@@ -35,7 +35,7 @@ const SkillsModal = ({ open, handleClose }) => {
           <LanguageSkills />
         </Box>
         <Box sx={{display: 'flex', flexWrap: 'wrap'}}>
-          <Typography sx={{mt: 2, ml: 2}}>Other technologies</Typography>
+          <Typography sx={{my: 4, ml: 2}} variant="h4" >Other technologies</Typography>
           <OtherTechnologies />
         </Box>
       </Box>
