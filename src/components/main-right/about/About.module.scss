@@ -63,23 +63,26 @@
 }
 
 .skillsButton {
-  background-color: $gray-300;
-  border: none;
-  color: $dark;
-  padding: 1rem 4rem;
-  margin-top: 0.75rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.4rem;
-  font-weight: bold;
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 3);
+  color: white;
+  height: 3rem;
+  padding: 0 30px;
   font-family: $roboto;
+  font-weight: bold;
   cursor: pointer;
-  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin: 0.5rem;
 
   &:hover {
-    background-color: $warning;
+    background: linear-gradient(45deg, $warning 30%, #ff8e53 90%);
     transform: scale(1.1);
+    box-shadow: 0 3px 5px 2px $warning;
+    font-weight: bold;
+    color: $dark;
   }
 }
 
