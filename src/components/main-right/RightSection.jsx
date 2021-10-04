@@ -3,6 +3,10 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";
 import styles from "./RightSection.module.scss";
+import Contact from "./contact/Contact";
+import Education from "./education/Education";
+import Portfolio from "./portfolio/Portfolio";
+import ErrorPage from "../error/ErrorPage";
 
 const RightSection = () => {
   return (
@@ -14,10 +18,18 @@ const RightSection = () => {
         <Route exact path="/marcosihe/about">
           <About />
         </Route>
-        <Route exact path="/marcosihe/education"></Route>
-        <Route exact path="/marcosihe/portfolio"></Route>
-        <Route exact path="/marcosihe/contact"></Route>
-        <Route exact path="/marcosihe/*"></Route>
+        <Route exact path="/marcosihe/education">
+          <Education />
+        </Route>
+        <Route exact path="/marcosihe/portfolio">
+          <Portfolio />
+        </Route>
+        <Route exact path="/marcosihe/contact">
+          <Contact />
+        </Route>
+        <Route exact path="/marcosihe/*">
+          <ErrorPage name="page_not_found" content="Page Not Found" />
+        </Route>
       </Switch>
     </section>
   );
