@@ -4,6 +4,8 @@
   display: flex;
   background-color: $dark;
   color: $light;
+  transition: transform 0.2s ease-in-out;
+  animation: move-left 500ms ease-in;
 }
 
 /* CARD */
@@ -20,8 +22,15 @@
   color: $white;
 }
 
-@media screen and (max-width: $med_bp_min) {
+@media screen and (max-width: $min_bp_min) {
   .homeContainer {
     flex-direction: column;
   }
+}
+
+@keyframes move-left {
+  0% {
+    transform: translateX(2rem);
+  }
+  100% {transform: translateX(0);}
 }

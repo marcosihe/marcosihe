@@ -6,6 +6,7 @@
 .profilePicture {
   max-width: $maxDimBigScreen;
   max-height: $maxDimBigScreen;
+  border-radius: 50%;
   animation: morph 4s ease-in-out infinite 1s;
 }
 
