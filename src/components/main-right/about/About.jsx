@@ -17,7 +17,7 @@ const About = () => {
   /* INFO */
   const resumeText =
     "Hi, I'm Marcos and Front-End Developer, in continuous training. I'm passionate about technology and programming. I constantly train myself to improve my skills, in order to always be able to provide efficient solutions. I consider myself a creative person and I have a set of skills in different kind of programming languages such as Javascript, React JS, Node Js, Java, among others";
-  const title = "MARCOS E. HERRERA";+
+  const title = "MARCOS E. HERRERA";
   const data = ["Address", "Phone", "E-mail", "Study"];
   const dataContent = [
     "Tucumán - Argentina",
