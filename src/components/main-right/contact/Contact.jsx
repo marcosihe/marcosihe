@@ -1,10 +1,19 @@
-import React from 'react'
-import ErrorPage from '../../error/ErrorPage'
+import React, { useState } from "react";
+
+import Button from "@mui/material/Button";
+import FormModal from "../../modal/FormModal";
 
 const Contact = () => {
-    return (
-        <ErrorPage name={`content_team_3`} content="Available Soon" />
-    )
-}
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
-export default Contact
+  return (
+    <section>
+      <Button onClick={handleOpen} color="success" size="large" >Contact me</Button>
+      <FormModal open={open} handleClose={handleClose} />
+    </section>
+  );
+};
+
+export default Contact;

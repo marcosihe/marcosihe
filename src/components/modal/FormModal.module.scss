@@ -1,0 +1,20 @@
+@use '../../abstracts/' as *;
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  max-height: 80vh;
+  border: 2px solid #000;
+  box-shadow: 24px;
+  padding: 4px;
+}
+
+@media screen and (max-width: $med_bp_min) {
+    .box {
+        width: 90vw;
+        overflow: scroll;
+    }
+}

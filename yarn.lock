@@ -1520,6 +1520,13 @@
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
+"@mui/icons-material@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.0.3.tgz#2a9d4f9078f375cef40f63a240b59cefa4a27eec"
+  integrity sha512-Lktn+4GNnXdVrOCUUvNNvOD9VyrGazWBsJy0BQeQgBe/+IjFMdlcNrDEUIlGlA5ZXOq7Mr/Mv9Os02mgF65jiw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+
 "@mui/material@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.0.2.tgz#380cf0ef42c538a68158b4da19c317178b22d10f"
@@ -4507,6 +4514,11 @@ email-addresses@^3.0.1:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/email-addresses/-/email-addresses-3.1.0.tgz#cabf7e085cbdb63008a70319a74e6136188812fb"
   integrity sha512-k0/r7GrWVL32kZlGwfPNgB2Y/mMXVTq/decgLczm/j34whdaspNrZO8CnXPf1laaHxI6ptUlsnAxN+UAPw+fzg==
+
+emailjs-com@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.2.0.tgz#a53cb22f1bc433c701c84c53d8b56eefd5ce7111"
+  integrity sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==
 
 emittery@^0.7.1:
   version "0.7.2"
